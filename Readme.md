@@ -1,4 +1,4 @@
-# AWS Cost-Optimized Data Lake for Financial Data Processing and Analysis
+# AWS Cost-Optimized Data Lake 
 
 ## 💡 **1. Project Objective**
 ✅ **Purpose:**
