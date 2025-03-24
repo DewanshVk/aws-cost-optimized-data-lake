@@ -1,10 +1,6 @@
 # AWS Cost-Optimized Data Lake for Financial Data Processing and Analysis
 
-## 📊 **1. Project Title:**
-**AWS Cost-Optimized Data Lake for Financial Data Processing and Analysis**
-
-
-## 💡 **2. Project Objective**
+## 💡 **1. Project Objective**
 ✅ **Purpose:**
 The objective of this project is to process and analyze financial data using AWS services in a cost-optimized manner.
 - Execute **ETL processing, partition financial data, run queries, and visualize insights**.
@@ -15,8 +11,12 @@ The objective of this project is to process and analyze financial data using AWS
 - **Serverless services** (Glue, Athena) eliminate infrastructure management overhead.
 - **Pay-as-you-go model** ensures cost-efficiency by charging only for actual usage.
 
+## 📊 **2. Architecture Diagram**
 
-## 🛠️ **3. Technologies Used**
+![AWS Cost-Optimized Data Lake Architecture](./Architecture.png)
+
+
+## 🛠️ **2. Technologies Used**
 - **AWS S3:**
    - Stores raw and processed data efficiently.
    - Supports partitioned storage for optimized queries.
@@ -41,15 +41,7 @@ The objective of this project is to process and analyze financial data using AWS
    - Interactive dashboards for financial data visualization.
    - Displays **financial insights** using Power BI charts and graphs.
 
-
-
-## 📊 **4. Architecture Diagram**
-
-![AWS Cost-Optimized Data Lake Architecture](./Architecture.png)
-
-
-
-## 📊 **5. Data Model**
+## 📊 **3. Data Model**
 ### **Table: `financial_transactions`**
 | **Column Name**      | **Data Type**    | **Description**                 |
 |----------------------|-----------------|---------------------------------|
@@ -67,7 +59,7 @@ The objective of this project is to process and analyze financial data using AWS
 
 ---
 
-## 🔥 **6. Step-by-Step Process**
+## 🔥 **4. Step-by-Step Process**
 ✅ **Step 1: Data Ingestion**  
 - Upload financial data in CSV and JSON formats to AWS S3 bucket:  
    - `transactions.csv`  
@@ -109,7 +101,7 @@ The objective of this project is to process and analyze financial data using AWS
 
 
 
-## 📈 **7. Results & Benefits**
+## 📈 **6. Results & Benefits**
 ✅ **1. Cost Optimization:**  
 - Partitioning reduced **Athena query execution time and cost**.  
 - Serverless architecture eliminated infrastructure costs.  
@@ -126,35 +118,24 @@ The objective of this project is to process and analyze financial data using AWS
 - Implemented data access control with IAM.  
 - Ensured only authorized users could access the data.  
 
-
-
-## 🚀 **8. Future Scope & Improvements**
+## 🚀 **7. Future Scope & Improvements**
 - **Lambda Automation:** Automate Glue job triggering with AWS Lambda.  
 - **Athena Workgroups:** Optimize and manage **query execution costs**.  
 - **Multi-Region S3 Storage:** Improve **data availability and resilience** with multi-region replication.  
 - **Add ML Models for Fraud Detection**: Implement machine learning models to detect fraudulent transactions.  
 
-
-
-## ⚙️ **9. Usage**
+## ⚙️ **8. Usage**
 - **Start ETL:** Trigger AWS Glue job.
 - **Query:** Use Athena for SQL queries.
 - **Visualization:** Power BI for insights.
 
-
-
-## 🚀 **10. Challenges and Learnings**
+## 🚀 **9. Challenges and Learnings**
 - Query optimization with partitioning.
 - Power BI integration with Athena.
 
-
-
-## ✅ **11. Contribution**
+## ✅ **10. Contribution**
 - PRs are welcome.
 
-
-
-## 📄 **12. License**
+## 📄 **11. License**
 - MIT License
-
 
