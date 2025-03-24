@@ -3,7 +3,6 @@
 ## 📊 **1. Project Title:**
 **AWS Cost-Optimized Data Lake for Financial Data Processing and Analysis**
 
----
 
 ## 💡 **2. Project Objective**
 ✅ **Purpose:**
@@ -16,7 +15,6 @@ The objective of this project is to process and analyze financial data using AWS
 - **Serverless services** (Glue, Athena) eliminate infrastructure management overhead.
 - **Pay-as-you-go model** ensures cost-efficiency by charging only for actual usage.
 
----
 
 ## 🛠️ **3. Technologies Used**
 - **AWS S3:**
@@ -43,13 +41,13 @@ The objective of this project is to process and analyze financial data using AWS
    - Interactive dashboards for financial data visualization.
    - Displays **financial insights** using Power BI charts and graphs.
 
----
+
 
 ## 📊 **4. Architecture Diagram**
 
 ![AWS Cost-Optimized Data Lake Architecture](./Architecture.png)
 
----
+
 
 ## 📊 **5. Data Model**
 ### **Table: `financial_transactions`**
@@ -109,7 +107,7 @@ The objective of this project is to process and analyze financial data using AWS
    - Use **Glue + Athena + S3** → No infrastructure management needed.  
    - Pay only during execution → cost-efficient.  
 
----
+
 
 ## 📈 **7. Results & Benefits**
 ✅ **1. Cost Optimization:**  
@@ -128,7 +126,7 @@ The objective of this project is to process and analyze financial data using AWS
 - Implemented data access control with IAM.  
 - Ensured only authorized users could access the data.  
 
----
+
 
 ## 🚀 **8. Future Scope & Improvements**
 - **Lambda Automation:** Automate Glue job triggering with AWS Lambda.  
@@ -136,25 +134,25 @@ The objective of this project is to process and analyze financial data using AWS
 - **Multi-Region S3 Storage:** Improve **data availability and resilience** with multi-region replication.  
 - **Add ML Models for Fraud Detection**: Implement machine learning models to detect fraudulent transactions.  
 
----
+
 
 ## ⚙️ **9. Usage**
 - **Start ETL:** Trigger AWS Glue job.
 - **Query:** Use Athena for SQL queries.
 - **Visualization:** Power BI for insights.
 
----
+
 
 ## 🚀 **10. Challenges and Learnings**
 - Query optimization with partitioning.
 - Power BI integration with Athena.
 
----
+
 
 ## ✅ **11. Contribution**
 - PRs are welcome.
 
----
+
 
 ## 📄 **12. License**
 - MIT License
